@@ -292,3 +292,20 @@ h2.tl-headline.tl-headline-title {
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
   box-shadow: none !important;
 }
+
+/* =============================================
+   FORCE BLUE ON ALL TIMEMARKER TEXT
+   Base CSS uses very specific selectors and hardcodes
+   #bfbfbf on h2.tl-headline inside markers.
+   These rules must win the specificity war.
+   ============================================= */
+
+.tl-timeline .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
+.tl-timeline .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
+  color: #7aa8f8 !important;
+}
+
+.tl-timeline .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
+.tl-timeline .tl-timemarker:focus .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+  color: #ffffff !important;
+}
