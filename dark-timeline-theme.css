@@ -137,41 +137,30 @@ h2.tl-headline.tl-headline-title {
 
 .tl-slidenav-next,
 .tl-slidenav-previous {
-  color: #7aa8f8;
+  color: #7aa8f8 !important;
   text-shadow: none !important;
 }
 
 .tl-slidenav-next:hover,
 .tl-slidenav-previous:hover {
-  color: #a8c4fb;
+  color: #a8c4fb !important;
   text-shadow: none !important;
 }
 
-/* Arrow icon */
-.tl-slidenav-next .tl-slidenav-icon,
-.tl-slidenav-previous .tl-slidenav-icon {
-  color: #7aa8f8;
+.tl-slidenav-title {
+  color: #7aa8f8 !important;
   text-shadow: none !important;
 }
 
-/* "Next" / "Previous" label */
-.tl-slidenav-next .tl-slidenav-title,
-.tl-slidenav-previous .tl-slidenav-title {
-  color: #7aa8f8;
+.tl-slidenav-description {
+  color: #7aa8f8 !important;
   text-shadow: none !important;
 }
 
-/* Slide title shown in nav */
-.tl-slidenav-next .tl-slidenav-description,
-.tl-slidenav-previous .tl-slidenav-description {
-  color: #7aa8f8;
-  text-shadow: none !important;
-}
-
-/* Catch-all: nuke any white text-shadow on all nav children */
+/* Catch-all: override any inherited dark color or white shadow on all nav children */
 .tl-slidenav-next *,
 .tl-slidenav-previous * {
-  color: #7aa8f8;
+  color: #7aa8f8 !important;
   text-shadow: none !important;
 }
 
