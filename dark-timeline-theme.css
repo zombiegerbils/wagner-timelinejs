@@ -7,13 +7,13 @@
     Background (deep):   #0f1117
     Background (mid):    #1a1d27
     Background (card):   #22273a
-    Accent (blue):       #4f8ef7
-    Accent (hover):      #2d6edc
+    Accent (blue):       #7aa8f8
+    Accent (hover):      #4f8ef7
     Text (primary):      #e8eaf0
     Text (secondary):    #9ca3b8
     Text (muted):        #6b7280
     Border:              #2e3450
-    Timemarker active:   #4f8ef7
+    Timemarker active:   #7aa8f8
 */
 
 /* =============================================
@@ -40,21 +40,21 @@
 }
 
 .tl-timeline a {
-  color: #4f8ef7;
+  color: #7aa8f8;
 }
 
 .tl-timeline a:hover {
-  color: #2d6edc;
+  color: #4f8ef7;
   text-decoration: underline;
 }
 
 .tl-timeline p a {
-  color: #4f8ef7;
+  color: #7aa8f8;
 }
 
 .tl-timeline p a:hover,
 .tl-timeline p a:focus {
-  color: #2d6edc;
+  color: #4f8ef7;
 }
 
 .tl-timeline blockquote,
@@ -89,7 +89,7 @@
 
 /* Date above headline */
 h3.tl-headline-date {
-  color: #4f8ef7;
+  color: #7aa8f8;
   font-size: 13px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -128,7 +128,7 @@ h2.tl-headline.tl-headline-title {
 
 .tl-caption a,
 .tl-credit a {
-  color: #4f8ef7;
+  color: #7aa8f8;
 }
 
 /* =============================================
@@ -184,7 +184,7 @@ h2.tl-headline.tl-headline-title {
 }
 
 .tl-menubar-button:hover {
-  color: #4f8ef7;
+  color: #7aa8f8;
   background-color: #2e3450;
 }
 
@@ -196,7 +196,7 @@ h2.tl-headline.tl-headline-title {
 
 /* Time axis tick marks */
 .tl-timeaxis-major .tl-timeaxis-tick:before {
-  background-color: #4f8ef7;
+  background-color: #7aa8f8;
 }
 
 .tl-timeaxis-minor .tl-timeaxis-tick:before {
@@ -236,8 +236,8 @@ h2.tl-headline.tl-headline-title {
 
 /* Active / selected marker */
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
-  background-color: #4f8ef7;
-  border-color: #2d6edc;
+  background-color: #7aa8f8;
+  border-color: #4f8ef7;
   color: #ffffff;
 }
 
@@ -257,7 +257,7 @@ h2.tl-headline.tl-headline-title {
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-left,
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right {
-  background-color: #4f8ef7;
+  background-color: #7aa8f8;
 }
 
 /* =============================================
@@ -265,12 +265,12 @@ h2.tl-headline.tl-headline-title {
    ============================================= */
 
 .tl-button-calltoaction .tl-button-calltoaction-text {
-  background-color: #4f8ef7;
+  background-color: #7aa8f8;
   color: #ffffff;
 }
 
 .tl-button-calltoaction .tl-button-calltoaction-text:hover {
-  background-color: #2d6edc;
+  background-color: #4f8ef7;
 }
 
 /* =============================================
