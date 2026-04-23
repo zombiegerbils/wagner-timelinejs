@@ -1,0 +1,269 @@
+/*
+  Dark Professional Theme — TimelineJS Override
+  Apply via the `theme` URL parameter in your iframe embed src:
+  &theme=https://YOUR-HOSTED-URL/dark-timeline-theme.css
+
+  Color palette:
+    Background (deep):   #0f1117
+    Background (mid):    #1a1d27
+    Background (card):   #22273a
+    Accent (blue):       #4f8ef7
+    Accent (hover):      #2d6edc
+    Text (primary):      #e8eaf0
+    Text (secondary):    #9ca3b8
+    Text (muted):        #6b7280
+    Border:              #2e3450
+    Timemarker active:   #4f8ef7
+*/
+
+/* =============================================
+   GLOBAL / ROOT
+   ============================================= */
+
+.tl-timeline {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #0f1117;
+  color: #e8eaf0;
+}
+
+.tl-timeline h1,
+.tl-timeline h2,
+.tl-timeline h3,
+.tl-timeline h4,
+.tl-timeline h5,
+.tl-timeline h6 {
+  color: #e8eaf0;
+}
+
+.tl-timeline p {
+  color: #9ca3b8;
+}
+
+.tl-timeline a {
+  color: #4f8ef7;
+}
+
+.tl-timeline a:hover {
+  color: #2d6edc;
+  text-decoration: underline;
+}
+
+.tl-timeline p a {
+  color: #4f8ef7;
+}
+
+.tl-timeline p a:hover,
+.tl-timeline p a:focus {
+  color: #2d6edc;
+}
+
+.tl-timeline blockquote,
+.tl-timeline blockquote p {
+  color: #9ca3b8;
+}
+
+.tl-timeline blockquote cite,
+.tl-timeline blockquote p cite {
+  color: #6b7280;
+}
+
+/* =============================================
+   SLIDE AREA
+   ============================================= */
+
+/* Outer slide wrapper background */
+.tl-slider-container-mask {
+  background-color: #0f1117;
+}
+
+/* Each slide */
+.tl-slide {
+  background-color: #0f1117;
+}
+
+/* Text block */
+.tl-text {
+  background-color: #1a1d27;
+  border-left: 1px solid #2e3450;
+}
+
+/* Date above headline */
+h3.tl-headline-date {
+  color: #4f8ef7;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* Main slide headline */
+h2.tl-headline {
+  color: #e8eaf0;
+}
+
+/* Title slide headline (larger) */
+h2.tl-headline.tl-headline-title {
+  color: #ffffff;
+}
+
+/* Body text */
+.tl-text-content {
+  color: #9ca3b8;
+}
+
+/* Media area */
+.tl-media-content-container {
+  background-color: #0f1117;
+}
+
+.tl-media-content {
+  background-color: #0f1117;
+}
+
+/* Caption & credit */
+.tl-caption,
+.tl-credit {
+  color: #6b7280;
+}
+
+.tl-caption a,
+.tl-credit a {
+  color: #4f8ef7;
+}
+
+/* =============================================
+   SLIDE NAVIGATION (prev / next arrows)
+   ============================================= */
+
+.tl-slidenav-next,
+.tl-slidenav-previous {
+  color: #6b7280;
+}
+
+.tl-slidenav-next:hover,
+.tl-slidenav-previous:hover {
+  color: #4f8ef7;
+}
+
+.tl-slidenav-title {
+  color: #9ca3b8;
+}
+
+.tl-slidenav-next .tl-slidenav-title,
+.tl-slidenav-previous .tl-slidenav-title {
+  color: #9ca3b8;
+}
+
+.tl-slidenav-next .tl-slidenav-description,
+.tl-slidenav-previous .tl-slidenav-description {
+  color: #6b7280;
+}
+
+/* =============================================
+   TIMENAV (bottom navigation bar)
+   ============================================= */
+
+.tl-timenav {
+  background-color: #1a1d27;
+  border-top: 2px solid #2e3450;
+}
+
+/* Zoom control icons */
+.tl-menubar {
+  background-color: #22273a;
+  border-right: 1px solid #2e3450;
+}
+
+.tl-menubar-button {
+  color: #9ca3b8;
+}
+
+.tl-menubar-button:hover {
+  color: #4f8ef7;
+  background-color: #2e3450;
+}
+
+/* Time axis background strip */
+.tl-timeaxis-background {
+  background-color: #22273a;
+  border-top: 1px solid #2e3450;
+}
+
+/* Time axis tick marks */
+.tl-timeaxis-major .tl-timeaxis-tick:before {
+  background-color: #4f8ef7;
+}
+
+.tl-timeaxis-minor .tl-timeaxis-tick:before {
+  background-color: #2e3450;
+}
+
+/* Tick labels */
+.tl-timeaxis .tl-timeaxis-tick-text {
+  color: #6b7280;
+}
+
+.tl-timeaxis-major .tl-timeaxis-tick-text {
+  color: #9ca3b8;
+}
+
+/* =============================================
+   TIME MARKERS (flags on the timenav)
+   ============================================= */
+
+/* Inactive markers */
+.tl-timemarker .tl-timemarker-content-container {
+  background-color: #22273a;
+  border: 1px solid #2e3450;
+  color: #9ca3b8;
+}
+
+/* Marker flag headline text */
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+  color: #9ca3b8;
+  font-size: 11px;
+}
+
+/* Timespan (background strip behind marker) */
+.tl-timemarker .tl-timemarker-timespan {
+  background-color: rgba(79, 142, 247, 0.12);
+}
+
+/* Active / selected marker */
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+  background-color: #4f8ef7;
+  border-color: #2d6edc;
+  color: #ffffff;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+  color: #ffffff;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-timespan {
+  background-color: rgba(79, 142, 247, 0.25);
+}
+
+/* Marker vertical line */
+.tl-timemarker-line-left,
+.tl-timemarker-line-right {
+  background-color: #2e3450;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left,
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-right {
+  background-color: #4f8ef7;
+}
+
+/* =============================================
+   CALL-TO-ACTION BUTTON
+   ============================================= */
+
+.tl-button-calltoaction .tl-button-calltoaction-text {
+  background-color: #4f8ef7;
+  color: #ffffff;
+}
+
+.tl-button-calltoaction .tl-button-calltoaction-text:hover {
+  background-color: #2d6edc;
+}
