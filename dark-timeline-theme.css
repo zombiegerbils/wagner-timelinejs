@@ -225,8 +225,12 @@ h2.tl-headline.tl-headline-title {
 
 /* Marker flag headline text */
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
-  color: #9ca3b8;
+  color: #7aa8f8 !important;
   font-size: 11px;
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text {
+  color: #7aa8f8 !important;
 }
 
 /* Timespan (background strip behind marker) */
