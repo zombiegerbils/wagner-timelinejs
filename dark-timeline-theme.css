@@ -272,3 +272,19 @@ h2.tl-headline.tl-headline-title {
 .tl-button-calltoaction .tl-button-calltoaction-text:hover {
   background-color: #2d6edc;
 }
+
+/* =============================================
+   REMOVE WHITE BOX-SHADOWS
+   The base CSS applies box-shadow: 1px 1px 1px #FFF
+   to marker lines and content containers, which
+   creates a visible white glow on dark backgrounds.
+   ============================================= */
+
+.tl-timemarker .tl-timemarker-line-left,
+.tl-timemarker .tl-timemarker-line-right,
+.tl-timemarker .tl-timemarker-content-container,
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left,
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-right,
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+  box-shadow: none !important;
+}
