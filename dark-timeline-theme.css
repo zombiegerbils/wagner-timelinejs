@@ -309,3 +309,14 @@ h2.tl-headline.tl-headline-title {
 .tl-timeline .tl-timemarker:focus .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
   color: #ffffff !important;
 }
+
+/* =============================================
+   ACTIVE TIMEMARKER TEXT — FORCE WHITE
+   When a marker is the current selection it gets
+   a blue background, so the text must be white.
+   ============================================= */
+
+.tl-timeline .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
+.tl-timeline .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
+  color: #ffffff !important;
+}
